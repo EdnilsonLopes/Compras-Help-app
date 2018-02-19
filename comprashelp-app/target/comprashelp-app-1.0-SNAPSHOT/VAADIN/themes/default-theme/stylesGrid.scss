@@ -1,0 +1,7 @@
+@mixin stylesGrid {
+	.inactive > .v-grid-cell {
+		text-decoration: line-through;
+		background-color: Gray; 	
+	}
+	
+}

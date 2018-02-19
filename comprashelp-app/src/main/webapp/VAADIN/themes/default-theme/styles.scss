@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "default-theme.scss";
+@import "stylesGrid.scss";
+
+.default-theme {
+  @include addons;
+  @include default-theme;
+  @include stylesGrid;
+}

@@ -1,0 +1,56 @@
+@mixin newslayout {
+	.newswindow {
+		width: 900px !important;
+		height: 800px !important;
+	}
+		.newslayout {
+			text-align: center;
+			width:100%;
+			display:block;
+			
+			.title {
+				text-align: center;
+				font-size: 1.7rem;
+    			letter-spacing: -.065em;
+    			margin-bottom: 6px;
+    			font-weight: bold;
+    			line-height: 1.1;
+    			color: #245A98;	
+			}
+		
+			.summary {
+				font-size: 1.25rem;
+				color: #666;
+				text-align: center;
+    			letter-spacing: -.80px;
+   		 		line-height: 1.45;
+   		 		display: block;
+   		 		font: inherit;
+   		 		-webkit-margin-before: 0.83em;
+    			-webkit-margin-after: 0.83em;
+    			-webkit-margin-start: 0px;
+    			-webkit-margin-end: 0px;
+    			font: inherit;
+    			vertical-align: baseline;
+			}
+		
+			.author {
+				margin-bottom: 2px;
+   	 			font-weight: bold;
+    			font-size: 1rem;
+    			color: #979797;
+    			letter-spacing: -.02rem;
+			}
+
+			.date {
+				margin-bottom: 2px;
+    			font-size: 0.75rem;
+    			color: #9D874D;
+    			letter-spacing: -.02rem;
+			}
+		
+			.content {
+				text-align: left;	
+			}
+		}
+}

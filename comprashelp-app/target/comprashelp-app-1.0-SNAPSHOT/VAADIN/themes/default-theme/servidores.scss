@@ -1,0 +1,43 @@
+@mixin servidores {
+	.servidores-tipo {
+		color: #245A98;
+		font-size: 1.5em;
+	}
+
+	.servidores-nome {
+		color: #245A98;
+		font-size: 2.0em;
+	}
+	
+	.servidores-label {
+		font-weight: bold;
+		font-size: 1.0em;
+	}
+	
+	.servidores-label-rend {
+		background-color: #d0e9c6; 	
+	}
+
+	.servidores-rend {
+		color: #3c763d;
+	}
+
+	.servidores-label-desc {
+		background-color: #f2dede;
+	}
+
+	.servidores-desc {
+		color: #a94442;
+	}
+		
+	.servidores-label-liq {
+		background-color: #d9edf7;
+	}
+
+	.servidores-filter-label {
+		color: #245A98;
+		background-color: #fcf8e3;
+		font-size: 2.0em;
+	}
+
+}
