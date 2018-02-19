@@ -1,0 +1,58 @@
+@import "../valo/valo.scss";
+@import "addons.scss";
+@import "news.scss";
+@import "headlinelayout.scss";
+@import "servidores.scss";
+
+@mixin default-theme {
+  @include valo;
+  @include newslayout;
+  @include headlinelayout;
+  @include servidores;
+}
+
+.portal-main-screen {
+	padding: 0px !important;
+}
+
+.portal-view {
+	padding: 0px !important;
+}
+
+.top-bottom-padding{
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+	padding-right: 8px !important;
+	padding-left: 0px !important;
+}
+
+.menu-view-treegrid-edit .v-treegrid-node{
+	width:95% !important;
+}
+
+.no-background{
+	background: transparent !important;
+}
+
+.v-loading-indicator[style*="none"]:before {
+	display: none;
+}
+   
+.v-loading-indicator-delay:before, .v-loading-indicator-wait:before {
+	content: "";
+	position: fixed;
+	background-color: rgba(255,255,255,.4);
+	background-image: url(../valo/shared/img/spinner.gif);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	pointer-events: auto;
+}
+
+@keyframes v-progress-wait-pulse {
+	0%,50%,100% { opacity: 1; }
+}

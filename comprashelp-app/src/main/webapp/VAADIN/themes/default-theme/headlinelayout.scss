@@ -1,0 +1,24 @@
+@mixin headlinelayout {
+	.headlinelayout {
+		overflow: hidden;
+		.image {
+			width: 100%;
+			height: 100%;		
+		}
+		.title {
+			position: relative;
+			font-weight: bold;
+			font-size: 200%;
+			color: rgb(255,255,255);
+			background-color: rgba(73,88,146, 0.8);
+			padding: 3px;
+		}
+		.description {
+			position: relative;
+			font-weight: bold;
+			font-size: 150%;
+			color: rgb(255,255,255);
+			text-shadow: 1px 1px 1px #4F4F4F;
+		}
+	}
+}
